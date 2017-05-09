@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<TestSolution>
+  <Member Guid="f5cf2b61-dd20-45b2-b75f-3111856fb15c">
+    <SuccessOrFail>False</SuccessOrFail>
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{123,2,23,36,2}</InputValue>
+    <ExpectationOutput>{123,23,36,2,2}</ExpectationOutput>
+    <ActuallyOutput>{2,2,23,36,123}</ActuallyOutput>
+  </Member>
+  <Member Guid="401af4dd-a8cc-486e-87aa-94ed950ce320">
+    <SuccessOrFail>True</SuccessOrFail>
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Double</ValueType>
+    <InputValue>{6E-08,6E-13}</InputValue>
+    <ExpectationOutput>{6E-13,6E-08}</ExpectationOutput>
+    <ActuallyOutput>{6E-13,6E-08}</ActuallyOutput>
+  </Member>
+  <Member Guid="f2d3e83b-861f-45dd-a0be-4cc00e1e4931">
+    <SuccessOrFail>True</SuccessOrFail>
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{36,36}</InputValue>
+    <ExpectationOutput>{36,36}</ExpectationOutput>
+    <ActuallyOutput>{36,36}</ActuallyOutput>
+  </Member>
+  <Member Guid="b644f453-ceab-4057-9a8b-d3a1b19166a6">
+    <SuccessOrFail>True</SuccessOrFail>
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{3}</InputValue>
+    <ExpectationOutput>{3}</ExpectationOutput>
+    <ActuallyOutput>{3}</ActuallyOutput>
+  </Member>
+  <Member Guid="36151289-c70d-4ec7-91c1-e46837b7ea54">
+    <SuccessOrFail>False</SuccessOrFail>
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Char</ValueType>
+    <InputValue>{a,n,c}</InputValue>
+    <ExpectationOutput>{c,n,a}</ExpectationOutput>
+    <ActuallyOutput>{a,c,n}</ActuallyOutput>
+  </Member>
+  <Member Guid="07ab02d9-5b59-4c26-a55d-f0ace8f846ab">
+    <SuccessOrFail>True</SuccessOrFail>
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Char</ValueType>
+    <InputValue>{a}</InputValue>
+    <ExpectationOutput>{a}</ExpectationOutput>
+    <ActuallyOutput>{a}</ActuallyOutput>
+  </Member>
+  <Member Guid="4eca0e39-6d6e-447b-bd01-cce394950a68">
+    <SuccessOrFail>False</SuccessOrFail>
+    <SortMethod>BubbleSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{1,2,4,5,7,2}</InputValue>
+    <ExpectationOutput>{2,2,1,4,5,7}</ExpectationOutput>
+    <ActuallyOutput>{1,2,2,4,5,7}</ActuallyOutput>
+  </Member>
+  <Member Guid="d02a272a-0ed4-489b-8605-d7590c7d2e7e">
+    <SuccessOrFail>False</SuccessOrFail>
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Double</ValueType>
+    <InputValue>{600000000,6E+24}</InputValue>
+    <ExpectationOutput>{6E+24,600000000}</ExpectationOutput>
+    <ActuallyOutput>{600000000,6E+24}</ActuallyOutput>
+  </Member>
+  <Member Guid="e68f2f86-fd54-4c17-a70c-9e6c506ecf80">
+    <SuccessOrFail>False</SuccessOrFail>
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{1,2}</InputValue>
+    <ExpectationOutput>{2,1}</ExpectationOutput>
+    <ActuallyOutput>{1,2}</ActuallyOutput>
+  </Member>
+  <Member Guid="aeb85363-3e9f-4bfb-8286-5ee13afdd0e1">
+    <SuccessOrFail>True</SuccessOrFail>
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{36,2}</InputValue>
+    <ExpectationOutput>{2,36}</ExpectationOutput>
+    <ActuallyOutput>{2,36}</ActuallyOutput>
+  </Member>
+  <Member Guid="0b5d943e-9fcd-4e2e-9eaf-4e91a7b386e8">
+    <SuccessOrFail>True</SuccessOrFail>
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{1,1,1,1}</InputValue>
+    <ExpectationOutput>{1,1,1,1}</ExpectationOutput>
+    <ActuallyOutput>{1,1,1,1}</ActuallyOutput>
+  </Member>
+</TestSolution>

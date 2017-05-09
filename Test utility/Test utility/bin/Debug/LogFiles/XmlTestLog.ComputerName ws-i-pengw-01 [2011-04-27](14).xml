@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<TestSolution>
+  <Member Guid="e97d5d2c-926f-4b5a-a377-4af41179d4ec">
+    <SuccessOrFail>False</SuccessOrFail>
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{36,2}</InputValue>
+    <ExpectationOutput>{36,2}</ExpectationOutput>
+    <ActuallyOutput>{2,36}</ActuallyOutput>
+  </Member>
+</TestSolution>

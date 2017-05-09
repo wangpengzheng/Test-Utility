@@ -1,0 +1,20 @@
+Running results :
+           Successed Case Number: 1
+            Failed Case Number: 0
+           Total Case:  1
+           Success Rate: 100%
+ 
+ 
+            /******************************The Failed Case******************************/
+           /******************************End of the Failed Case ******************************/
+
+           \******************************The Successed Case******************************\
+Successed File 1:
+           Sort Method: SelectionSort
+           Value Type: Int
+           
+           Input Values:             {3,2,3,2}
+           Expectation Output: {2,2,3,3}
+           Actually Output:        {2,2,3,3}
+
+           \******************************End of the Successed Case******************************\

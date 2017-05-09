@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<TestSolution>
+  <Member Guid="7ff03625-dfa8-4dd7-b961-479c14c71851">
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Double</ValueType>
+    <InputValue>{6E-07,6E-08}</InputValue>
+    <ExpectationOutput>{6E-08,6E-07}</ExpectationOutput>
+  </Member>
+</TestSolution>

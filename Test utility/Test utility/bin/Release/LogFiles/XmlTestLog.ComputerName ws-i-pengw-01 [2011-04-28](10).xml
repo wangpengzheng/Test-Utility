@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<TestSolution>
+  <Member Guid="1e2642dc-5e14-4cfb-8aa4-8322385fa302">
+    <SuccessOrFail>False</SuccessOrFail>
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{123,2,23,36,2}</InputValue>
+    <ExpectationOutput>{123,23,36,2,2}</ExpectationOutput>
+    <ActuallyOutput>{2,2,23,36,123}</ActuallyOutput>
+  </Member>
+  <Member Guid="afb371c8-a1cf-48d7-b278-2730d5773804">
+    <SuccessOrFail>True</SuccessOrFail>
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Double</ValueType>
+    <InputValue>{6E-08,6E-13}</InputValue>
+    <ExpectationOutput>{6E-13,6E-08}</ExpectationOutput>
+    <ActuallyOutput>{6E-13,6E-08}</ActuallyOutput>
+  </Member>
+</TestSolution>

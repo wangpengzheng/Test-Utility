@@ -1,0 +1,28 @@
+Running results :
+           Successed Case Number: 1
+            Failed Case Number: 1
+           Total Case:  2
+           Success Rate: 50%
+ 
+ 
+            /******************************The Failed Case******************************/
+Failed File 1:
+           Sort Method: BubbleSort
+           Value Type: Int
+           
+           Input Values:             {1,2,4,5,7,2}
+           Expectation Output: {2,2,1,4,5,7}
+           Actually Output:        {2,2,1,4,5,7}
+
+           /******************************End of the Failed Case ******************************/
+
+           \******************************The Successed Case******************************\
+Successed File 1:
+           Sort Method: SelectionSort
+           Value Type: Int
+           
+           Input Values:             {3}
+           Expectation Output: {3}
+           Actually Output:        {3}
+
+           \******************************End of the Successed Case******************************\

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<TestSolution>
+  <Member Guid="b737143b-058f-4059-8455-eeef786a06e1">
+    <SuccessOrFail>True</SuccessOrFail>
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{3,2,3,2}</InputValue>
+    <ExpectationOutput>{2,2,3,3}</ExpectationOutput>
+    <ActuallyOutput>{2,2,3,3}</ActuallyOutput>
+  </Member>
+  <Member Guid="e083ba1f-55e8-401e-9e1d-9ce33b842cc1">
+    <SuccessOrFail>False</SuccessOrFail>
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{2,123}</InputValue>
+    <ExpectationOutput>{2,12}</ExpectationOutput>
+    <ActuallyOutput>{2,123}</ActuallyOutput>
+  </Member>
+  <Member Guid="8441dd87-ab3a-4d04-b573-0599cf247e31">
+    <SuccessOrFail>False</SuccessOrFail>
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{321}</InputValue>
+    <ExpectationOutput>{123}</ExpectationOutput>
+    <ActuallyOutput>{321}</ActuallyOutput>
+  </Member>
+  <Member Guid="739022b6-17f3-45ae-b43f-9d5d9b820df0">
+    <SuccessOrFail>True</SuccessOrFail>
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{1}</InputValue>
+    <ExpectationOutput>{1}</ExpectationOutput>
+    <ActuallyOutput>{1}</ActuallyOutput>
+  </Member>
+</TestSolution>

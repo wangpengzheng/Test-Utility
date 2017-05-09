@@ -1,0 +1,68 @@
+Running results :  2010.4.28
+           Successed Case Number: 4
+            Failed Case Number: 3
+           Total Case:  7
+           Success Rate: 57%
+ 
+ 
+            /******************************The Failed Case******************************/
+Failed File 1:
+           Sort Method: InsertionSort
+           Value Type: Int
+           
+           Input Values:             {123,2,23,36,2}
+           Expectation Output: {123,23,36,2,2}
+           Actually Output:        {123,23,36,2,2}
+
+Failed File 2:
+           Sort Method: SelectionSort
+           Value Type: Char
+           
+           Input Values:             {a,n,c}
+           Expectation Output: {c,n,a}
+           Actually Output:        {c,n,a}
+
+Failed File 3:
+           Sort Method: BubbleSort
+           Value Type: Int
+           
+           Input Values:             {1,2,4,5,7,2}
+           Expectation Output: {2,2,1,4,5,7}
+           Actually Output:        {2,2,1,4,5,7}
+
+           /******************************End of the Failed Case ******************************/
+
+           \******************************The Successed Case******************************\
+Successed File 1:
+           Sort Method: InsertionSort
+           Value Type: Double
+           
+           Input Values:             {6E-08,6E-13}
+           Expectation Output: {6E-13,6E-08}
+           Actually Output:        {6E-13,6E-08}
+
+Successed File 2:
+           Sort Method: SelectionSort
+           Value Type: Int
+           
+           Input Values:             {36,36}
+           Expectation Output: {36,36}
+           Actually Output:        {36,36}
+
+Successed File 3:
+           Sort Method: SelectionSort
+           Value Type: Int
+           
+           Input Values:             {3}
+           Expectation Output: {3}
+           Actually Output:        {3}
+
+Successed File 4:
+           Sort Method: InsertionSort
+           Value Type: Char
+           
+           Input Values:             {a}
+           Expectation Output: {a}
+           Actually Output:        {a}
+
+           \******************************End of the Successed Case******************************\

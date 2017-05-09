@@ -1,0 +1,60 @@
+Running results :
+           Successed Case Number: 2
+            Failed Case Number: 4
+           Total Case:  6
+           Success Rate: 33.33%
+ 
+ 
+            /******************************The Failed Case******************************/
+Failed File 1:
+           Sort Method: SelectionSort
+           Value Type: Int
+           
+           Input Values:             {3,2}
+           Expectation Output: {36,2}
+           Actually Output:        {2,3}
+
+Failed File 2:
+           Sort Method: SelectionSort
+           Value Type: Char
+           
+           Input Values:             {d,f}
+           Expectation Output: {f,d}
+           Actually Output:        {d,f}
+
+Failed File 3:
+           Sort Method: InsertionSort
+           Value Type: Double
+           
+           Input Values:             {3.6E+16,26,3333333,26,3.6182E+26}
+           Expectation Output: {26,3333333,3.6E+16,3.6182E+26,26}
+           Actually Output:        {26,26,3333333,3.6E+16,3.6182E+26}
+
+Failed File 4:
+           Sort Method: BubbleSort
+           Value Type: Double
+           
+           Input Values:             {0.333333,-5E-12,-2.65E-10}
+           Expectation Output: {-5E-12,-2.65E-10,0.333333}
+           Actually Output:        {-2.65E-10,-5E-12,0.333333}
+
+           /******************************End of the Failed Case ******************************/
+
+           \******************************The Successed Case******************************\
+Successed File 1:
+           Sort Method: SelectionSort
+           Value Type: Int
+           
+           Input Values:             {3,2}
+           Expectation Output: {2,3}
+           Actually Output:        {2,3}
+
+Successed File 2:
+           Sort Method: InsertionSort
+           Value Type: Int
+           
+           Input Values:             {-25,-36,-5,-7,-36}
+           Expectation Output: {-36,-36,-25,-7,-5}
+           Actually Output:        {-36,-36,-25,-7,-5}
+
+           \******************************End of the Successed Case******************************\

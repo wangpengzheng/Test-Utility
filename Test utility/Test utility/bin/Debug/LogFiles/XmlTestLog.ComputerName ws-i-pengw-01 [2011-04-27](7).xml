@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<TestSolution>
+  <Member Guid="ef9bf35b-92e9-4fda-9eee-ff16d0a6c960">
+    <SuccessOrFail>True</SuccessOrFail>
+    <SortMethod>BubbleSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{36,2}</InputValue>
+    <ExpectationOutput>{2,36}</ExpectationOutput>
+    <ActuallyOutput>{2,36}</ActuallyOutput>
+  </Member>
+  <Member Guid="23ff7c3d-3d5a-4cf9-97cd-03be31c46990">
+    <SuccessOrFail>True</SuccessOrFail>
+    <SortMethod>BubbleSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{36,26}</InputValue>
+    <ExpectationOutput>{26,36}</ExpectationOutput>
+    <ActuallyOutput>{26,36}</ActuallyOutput>
+  </Member>
+  <Member Guid="b0b0b887-e04d-4195-80bf-383aa3f7a584">
+    <SuccessOrFail>True</SuccessOrFail>
+    <SortMethod>BubbleSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{2}</InputValue>
+    <ExpectationOutput>{2}</ExpectationOutput>
+    <ActuallyOutput>{2}</ActuallyOutput>
+  </Member>
+</TestSolution>

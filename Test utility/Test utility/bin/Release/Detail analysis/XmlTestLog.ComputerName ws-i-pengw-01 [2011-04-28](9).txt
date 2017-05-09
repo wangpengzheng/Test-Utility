@@ -1,0 +1,20 @@
+Running results :
+           Successed Case Number: 0
+            Failed Case Number: 1
+           Total Case:  1
+           Success Rate: 0%
+ 
+ 
+            /******************************The Failed Case******************************/
+Failed File 1:
+           Sort Method: InsertionSort
+           Value Type: Int
+           
+           Input Values:             {123,2,23,36,2}
+           Expectation Output: {123,23,36,2,2}
+           Actually Output:        {123,23,36,2,2}
+
+           /******************************End of the Failed Case ******************************/
+
+           \******************************The Successed Case******************************\
+           \******************************End of the Successed Case******************************\

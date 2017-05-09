@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<TestSolution>
+  <Member Guid="4358aed2-c764-46c2-bc59-57316fbc056d">
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{3}</InputValue>
+    <ExpectationOutput>{3}</ExpectationOutput>
+  </Member>
+</TestSolution>

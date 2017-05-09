@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<TestSolution>
+  <Member Guid="3338d055-230a-4621-bbb9-5dc624a98455">
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{3,2}</InputValue>
+    <ExpectationOutput>{36,2}</ExpectationOutput>
+  </Member>
+  <Member Guid="b4ce464c-a29a-4fe0-9f18-d25131acfaa7">
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{3,2}</InputValue>
+    <ExpectationOutput>{2,3}</ExpectationOutput>
+  </Member>
+  <Member Guid="b19b664a-5729-4c27-979d-1af822da4402">
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Char</ValueType>
+    <InputValue>{d,f}</InputValue>
+    <ExpectationOutput>{f,d}</ExpectationOutput>
+  </Member>
+  <Member Guid="f5c5ccd6-6501-446a-95bc-ece87323f594">
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{-25,-36,-5,-7,-36}</InputValue>
+    <ExpectationOutput>{-36,-36,-25,-7,-5}</ExpectationOutput>
+  </Member>
+  <Member Guid="e1592bea-3a98-4087-a930-f9aaf2f20ce4">
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Double</ValueType>
+    <InputValue>{3.6E+16,26,3333333,26,3.6182E+26}</InputValue>
+    <ExpectationOutput>{26,3333333,3.6E+16,3.6182E+26,26}</ExpectationOutput>
+  </Member>
+  <Member Guid="e7135d8d-b046-4329-a742-a0240c595584">
+    <SortMethod>BubbleSort</SortMethod>
+    <ValueType>Double</ValueType>
+    <InputValue>{0.333333,-5E-12,-2.65E-10}</InputValue>
+    <ExpectationOutput>{-5E-12,-2.65E-10,0.333333}</ExpectationOutput>
+  </Member>
+</TestSolution>

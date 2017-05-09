@@ -1,0 +1,12 @@
+Running results :
+           Successed Case Number: 0
+            Failed Case Number: 0
+           Total Case:  0
+           Success Rate: 非数字%
+ 
+ 
+            /******************************The Failed Case******************************/
+           /******************************End of the Failed Case ******************************/
+
+           \******************************The Successed Case******************************\
+           \******************************End of the Successed Case******************************\

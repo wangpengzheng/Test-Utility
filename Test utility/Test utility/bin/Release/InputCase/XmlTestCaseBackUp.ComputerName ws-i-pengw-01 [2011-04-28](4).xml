@@ -1,0 +1,69 @@
+﻿<?xml version="1.0"?>
+<TestSolution>
+  <Member Guid="0fd4a4d0-886d-4da0-8b28-0583f2706ea4">
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{123,2,23,36,2}</InputValue>
+    <ExpectationOutput>{123,23,36,2,2}</ExpectationOutput>
+  </Member>
+  <Member Guid="ef37242a-c113-409d-8a6f-820deeaa42dc">
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Double</ValueType>
+    <InputValue>{6E-08,6E-13}</InputValue>
+    <ExpectationOutput>{6E-13,6E-08}</ExpectationOutput>
+  </Member>
+  <Member Guid="5194ece8-7384-4733-8c28-74a0de818c58">
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{36,36}</InputValue>
+    <ExpectationOutput>{36,36}</ExpectationOutput>
+  </Member>
+  <Member Guid="6bfc51aa-884a-47e4-9124-9e15b10e446d">
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{3}</InputValue>
+    <ExpectationOutput>{3}</ExpectationOutput>
+  </Member>
+  <Member Guid="2899f8b8-e2e6-440b-9813-7fc1d615e5a1">
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Char</ValueType>
+    <InputValue>{a,n,c}</InputValue>
+    <ExpectationOutput>{c,n,a}</ExpectationOutput>
+  </Member>
+  <Member Guid="a9de7b32-7a71-4493-8a03-5debb81ac220">
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Char</ValueType>
+    <InputValue>{a}</InputValue>
+    <ExpectationOutput>{a}</ExpectationOutput>
+  </Member>
+  <Member Guid="a581808f-58e4-441e-a0a4-e4a9d08255ce">
+    <SortMethod>BubbleSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{1,2,4,5,7,2}</InputValue>
+    <ExpectationOutput>{2,2,1,4,5,7}</ExpectationOutput>
+  </Member>
+  <Member Guid="95b6ff9a-70a4-4a86-8a4a-01896b7e1212">
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Double</ValueType>
+    <InputValue>{600000000,6E+24}</InputValue>
+    <ExpectationOutput>{6E+24,600000000}</ExpectationOutput>
+  </Member>
+  <Member Guid="565a6841-949b-4316-87ff-7262853ed786">
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{1,2}</InputValue>
+    <ExpectationOutput>{2,1}</ExpectationOutput>
+  </Member>
+  <Member Guid="5cbf3e0c-dd41-48cb-bffb-ee99f5d19069">
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{36,2}</InputValue>
+    <ExpectationOutput>{2,36}</ExpectationOutput>
+  </Member>
+  <Member Guid="4b0aead4-85b9-42f6-b652-f5b44de497ec">
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{1,1,1,1}</InputValue>
+    <ExpectationOutput>{1,1,1,1}</ExpectationOutput>
+  </Member>
+</TestSolution>

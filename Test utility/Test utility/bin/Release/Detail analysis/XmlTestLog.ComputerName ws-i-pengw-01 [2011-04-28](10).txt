@@ -1,0 +1,28 @@
+Running results :
+           Successed Case Number: 1
+            Failed Case Number: 1
+           Total Case:  2
+           Success Rate: 50%
+ 
+ 
+            /******************************The Failed Case******************************/
+Failed File 1:
+           Sort Method: InsertionSort
+           Value Type: Int
+           
+           Input Values:             {123,2,23,36,2}
+           Expectation Output: {123,23,36,2,2}
+           Actually Output:        {123,23,36,2,2}
+
+           /******************************End of the Failed Case ******************************/
+
+           \******************************The Successed Case******************************\
+Successed File 1:
+           Sort Method: InsertionSort
+           Value Type: Double
+           
+           Input Values:             {6E-08,6E-13}
+           Expectation Output: {6E-13,6E-08}
+           Actually Output:        {6E-13,6E-08}
+
+           \******************************End of the Successed Case******************************\

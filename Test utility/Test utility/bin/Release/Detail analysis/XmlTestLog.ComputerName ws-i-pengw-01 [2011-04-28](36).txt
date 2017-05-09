@@ -1,0 +1,28 @@
+Running results :
+           Successed Case Number: 0
+            Failed Case Number: 2
+           Total Case:  2
+           Success Rate: 0%
+ 
+ 
+            /******************************The Failed Case******************************/
+Failed File 1:
+           Sort Method: SelectionSort
+           Value Type: Int
+           
+           Input Values:             {12,232}
+           Expectation Output: {232,12}
+           Actually Output:        {232,12}
+
+Failed File 2:
+           Sort Method: SelectionSort
+           Value Type: Float
+           
+           Input Values:             {1.35,2}
+           Expectation Output: {2.0325,2}
+           Actually Output:        {2.0325,2}
+
+           /******************************End of the Failed Case ******************************/
+
+           \******************************The Successed Case******************************\
+           \******************************End of the Successed Case******************************\

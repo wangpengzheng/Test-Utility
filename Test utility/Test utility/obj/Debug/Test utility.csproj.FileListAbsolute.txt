@@ -1,0 +1,24 @@
+D:\My code\Home work\Test utility\Test utility\bin\Debug\Test utility.exe
+D:\My code\Home work\Test utility\Test utility\bin\Debug\Test utility.pdb
+D:\My code\Home work\Test utility\Test utility\obj\Debug\ResolveAssemblyReference.cache
+D:\My code\Home work\Test utility\Test utility\obj\Debug\Test_utility.FrmMain.resources
+D:\My code\Home work\Test utility\Test utility\obj\Debug\Test_utility.Properties.Resources.resources
+D:\My code\Home work\Test utility\Test utility\obj\Debug\Test utility.csproj.GenerateResource.Cache
+D:\My code\Home work\Test utility\Test utility\obj\Debug\Test utility.exe
+D:\My code\Home work\Test utility\Test utility\obj\Debug\Test utility.pdb
+D:\My code\Home work\Test utility       for testing\Test utility\Test utility\obj\Debug\Test utility.exe
+D:\My code\Home work\Test utility       for testing\Test utility\Test utility\obj\Debug\Test utility.pdb
+D:\My code\Home work\Test utility       for testing\Test utility\Test utility\bin\Debug\Test utility.exe
+D:\My code\Home work\Test utility       for testing\Test utility\Test utility\bin\Debug\Test utility.pdb
+D:\My code\Home work\Test utility       for testing\Test utility\Test utility\obj\Debug\ResolveAssemblyReference.cache
+D:\My code\Home work\Test utility       for testing\Test utility\Test utility\obj\Debug\Test_utility.FrmMain.resources
+D:\My code\Home work\Test utility       for testing\Test utility\Test utility\obj\Debug\Test_utility.Properties.Resources.resources
+D:\My code\Home work\Test utility       for testing\Test utility\Test utility\obj\Debug\Test utility.csproj.GenerateResource.Cache
+D:\My code\Home work\Test utility\Test utility\Test utility\obj\Debug\Test utility.exe
+D:\My code\Home work\Test utility\Test utility\Test utility\obj\Debug\Test utility.pdb
+D:\My code\Home work\Test utility\Test utility\Test utility\bin\Debug\Test utility.exe
+D:\My code\Home work\Test utility\Test utility\Test utility\bin\Debug\Test utility.pdb
+D:\My code\Home work\Test utility\Test utility\Test utility\obj\Debug\ResolveAssemblyReference.cache
+D:\My code\Home work\Test utility\Test utility\Test utility\obj\Debug\Test_utility.TestUtility.resources
+D:\My code\Home work\Test utility\Test utility\Test utility\obj\Debug\Test_utility.Properties.Resources.resources
+D:\My code\Home work\Test utility\Test utility\Test utility\obj\Debug\Test utility.csproj.GenerateResource.Cache

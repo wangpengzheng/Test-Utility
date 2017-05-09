@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<TestSolution>
+  <Member Guid="cd13f29c-6965-481f-9eaa-bcf786b20630">
+    <SuccessOrFail>True</SuccessOrFail>
+    <SortMethod>BubbleSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{36,25}</InputValue>
+    <ExpectationOutput>{25,36}</ExpectationOutput>
+    <ActuallyOutput>{25,36}</ActuallyOutput>
+  </Member>
+  <Member Guid="55d2e281-b72a-42ac-81c0-bd9f30263786">
+    <SuccessOrFail>True</SuccessOrFail>
+    <SortMethod>BubbleSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{36,23,12}</InputValue>
+    <ExpectationOutput>{12,23,36}</ExpectationOutput>
+    <ActuallyOutput>{12,23,36}</ActuallyOutput>
+  </Member>
+  <Member Guid="53a8a8b5-4ea2-4c27-b8ad-4d12d9b58fb8">
+    <SuccessOrFail>False</SuccessOrFail>
+    <SortMethod>BubbleSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{2,36}</InputValue>
+    <ExpectationOutput>{36,2}</ExpectationOutput>
+    <ActuallyOutput>{2,36}</ActuallyOutput>
+  </Member>
+  <Member Guid="d45c986b-d915-46e2-aef6-8d765e1ffddf">
+    <SuccessOrFail>True</SuccessOrFail>
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{36,1}</InputValue>
+    <ExpectationOutput>{1,36}</ExpectationOutput>
+    <ActuallyOutput>{1,36}</ActuallyOutput>
+  </Member>
+  <Member Guid="ca823fcc-457f-4249-9d40-40b9cf854433">
+    <SuccessOrFail>False</SuccessOrFail>
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{36}</InputValue>
+    <ExpectationOutput>{3}</ExpectationOutput>
+    <ActuallyOutput>{36}</ActuallyOutput>
+  </Member>
+</TestSolution>

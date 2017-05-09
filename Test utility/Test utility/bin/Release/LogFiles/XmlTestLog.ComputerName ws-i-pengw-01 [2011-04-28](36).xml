@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<TestSolution>
+  <Member Guid="87e6fde6-4128-456b-88ba-dc1277df3c01">
+    <SuccessOrFail>False</SuccessOrFail>
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{12,232}</InputValue>
+    <ExpectationOutput>{232,12}</ExpectationOutput>
+    <ActuallyOutput>{12,232}</ActuallyOutput>
+  </Member>
+  <Member Guid="c8bad98b-7473-4ce1-a5ec-c4f1ed8a8417">
+    <SuccessOrFail>False</SuccessOrFail>
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Float</ValueType>
+    <InputValue>{1.35,2}</InputValue>
+    <ExpectationOutput>{2.0325,2}</ExpectationOutput>
+    <ActuallyOutput>{1.35,2}</ActuallyOutput>
+  </Member>
+</TestSolution>

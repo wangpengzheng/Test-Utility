@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<TestSolution>
+  <Member Guid="1ecb8b02-06c5-468c-8044-b75e521d1546">
+    <SuccessOrFail>False</SuccessOrFail>
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{3,2}</InputValue>
+    <ExpectationOutput>{36,2}</ExpectationOutput>
+    <ActuallyOutput>{2,3}</ActuallyOutput>
+  </Member>
+  <Member Guid="188ec5b2-1c83-4552-b912-e46015c8ad6b">
+    <SuccessOrFail>True</SuccessOrFail>
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{3,2}</InputValue>
+    <ExpectationOutput>{2,3}</ExpectationOutput>
+    <ActuallyOutput>{2,3}</ActuallyOutput>
+  </Member>
+  <Member Guid="18a53384-c18e-4f9e-89e2-5e30d319c91d">
+    <SuccessOrFail>False</SuccessOrFail>
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Char</ValueType>
+    <InputValue>{d,f}</InputValue>
+    <ExpectationOutput>{f,d}</ExpectationOutput>
+    <ActuallyOutput>{d,f}</ActuallyOutput>
+  </Member>
+  <Member Guid="fb3cd3cc-87b0-4e72-ba50-eb037aac8e7a">
+    <SuccessOrFail>True</SuccessOrFail>
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{-25,-36,-5,-7,-36}</InputValue>
+    <ExpectationOutput>{-36,-36,-25,-7,-5}</ExpectationOutput>
+    <ActuallyOutput>{-36,-36,-25,-7,-5}</ActuallyOutput>
+  </Member>
+  <Member Guid="1603fa28-18a4-4c13-a3a5-02a7021de9f5">
+    <SuccessOrFail>False</SuccessOrFail>
+    <SortMethod>InsertionSort</SortMethod>
+    <ValueType>Double</ValueType>
+    <InputValue>{3.6E+16,26,3333333,26,3.6182E+26}</InputValue>
+    <ExpectationOutput>{26,3333333,3.6E+16,3.6182E+26,26}</ExpectationOutput>
+    <ActuallyOutput>{26,26,3333333,3.6E+16,3.6182E+26}</ActuallyOutput>
+  </Member>
+  <Member Guid="7efee2e4-c64b-4856-9811-6e3d00f933a3">
+    <SuccessOrFail>False</SuccessOrFail>
+    <SortMethod>BubbleSort</SortMethod>
+    <ValueType>Double</ValueType>
+    <InputValue>{0.333333,-5E-12,-2.65E-10}</InputValue>
+    <ExpectationOutput>{-5E-12,-2.65E-10,0.333333}</ExpectationOutput>
+    <ActuallyOutput>{-2.65E-10,-5E-12,0.333333}</ActuallyOutput>
+  </Member>
+</TestSolution>

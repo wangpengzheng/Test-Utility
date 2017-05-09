@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<TestSolution>
+  <Member Guid="83cbeaa8-ddaa-4f05-9d74-5d86c5730614">
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{2,1,5,3,5,4,2}</InputValue>
+    <ExpectationOutput>{2,1,3,5,2,1,5}</ExpectationOutput>
+  </Member>
+  <Member Guid="8565f9d5-7ecb-4d3d-81cb-10395c707f46">
+    <SortMethod>SelectionSort</SortMethod>
+    <ValueType>Int</ValueType>
+    <InputValue>{36,2,36,2,1}</InputValue>
+    <ExpectationOutput>{1,2,2,36,36}</ExpectationOutput>
+  </Member>
+</TestSolution>
